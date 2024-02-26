@@ -19,6 +19,8 @@ export interface DefaultThemes {
   };
 }
 
+type VariantType = `${Variant}`;
+
 const emptyVariant = {
   main: "",
   contrast: "",
@@ -58,3 +60,4 @@ defaultThemes.variants.ignore = {
 };
 
 export { defaultThemes };
+export type { VariantType };
