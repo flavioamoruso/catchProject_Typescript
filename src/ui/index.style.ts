@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const StyledUi = styled.div`
+const StyledUI = styled.div`
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -8,4 +8,5 @@ const StyledUi = styled.div`
   align-items: center;
   overflow: hidden;
 `;
-export { StyledUi };
+
+export { StyledUI };
